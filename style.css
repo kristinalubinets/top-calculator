@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #cbbce0;
+    font-size: larger;
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #4d3f9d;
+}
+
+.calculator {
+    width: 320px;
+    height: 520px;
+    border-radius: 19px;
+
+    background: linear-gradient(145deg, #392f70, #5243a8);
+    box-shadow:  6px 6px 11px #413685,
+                 -6px -6px 11px #5948b5;   
+}
+
+#result-box {
+    margin: 35px 5px 30px 20px;
+    
+    width: 278px;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background: #392f75;
+    box-shadow: inset 6px 6px 11px #302863,
+                inset -6px -6px 11px #423687;
+}
+
+.buttons {
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    gap: 13px;
+}
+.container .button {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3px;
+    width: 57px;
+    height: 45px;
+    border-radius: 9px;
+    
+    background: linear-gradient(145deg, #3f347d, #6052b5);
+    box-shadow: 6px 6px 11px #2a273e, -6px -6px 8px  #584ba3;
+}
+.button.ac,
+.button.zero {
+    width: 128px;
+    background-color: rgb(103, 115, 126);
+}
+.button:hover {
+    cursor: pointer;
+}
+.btnPressed {
+    background: linear-gradient(145deg, #3f347d, #6052b5);
+    box-shadow: inset 6px 6px 11px #383453, inset -6px -6px 4px #6a5bbd;
+}
+.footer {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 174, 199);
+}
