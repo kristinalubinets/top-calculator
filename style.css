@@ -34,7 +34,7 @@ body {
     
     width: 278px;
     height: 120px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 9px;
     background: #392f75;
     box-shadow: inset 6px 6px 11px #302863,
@@ -47,6 +47,7 @@ body {
     padding-left: 25px;
     gap: 13px;
 }
+
 .container .button {
     align-items: center;
     text-align: center;
@@ -58,22 +59,22 @@ body {
     background: linear-gradient(145deg, #3f347d, #6052b5);
     box-shadow: 6px 6px 11px #2a273e, -6px -6px 8px  #584ba3;
 }
+
 .button.ac,
 .button.zero {
     width: 128px;
     background-color: rgb(103, 115, 126);
 }
+
 .button:hover {
     cursor: pointer;
 }
-.btnPressed {
-    background: linear-gradient(145deg, #3f347d, #6052b5);
-    box-shadow: inset 6px 6px 11px #383453, inset -6px -6px 4px #6a5bbd;
-}
+
 .footer {
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(184, 174, 199);
+    color:rgb(224, 219, 231)
 }
