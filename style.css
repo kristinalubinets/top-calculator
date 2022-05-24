@@ -29,16 +29,28 @@ body {
                  -6px -6px 11px #5948b5;   
 }
 
-#result-box {
-    margin: 35px 5px 30px 20px;
-    
+
+
+.box {
+    text-align: right;
+    margin: 35px 5px 30px 20px;   
     width: 278px;
     height: 120px;
-    border: 1px solid black;
+    border: 1.5px solid #3c3177; 
     border-radius: 9px;
     background: #392f75;
     box-shadow: inset 6px 6px 11px #302863,
-                inset -6px -6px 11px #423687;
+                inset -6px -6px 11px #423687;   
+}
+
+.previous-result {
+    height: 80px;
+}
+
+#result-box {
+    height: 40px;
+    width: 270px;
+    font-size: 30px;
 }
 
 .buttons {
