@@ -1,6 +1,6 @@
-# top-calculator
+# 🧮 Neumorphic Calculator 🧮
 
-🧮 A Calculator Project using HTML, CSS, and JavaScript 🧮
+## A Calculator Project using HTML, CSS, and JavaScript 
 
 📲 Built in Neumorphic style - a design that draws from skeumorphism and flat design, it combines a monochromatic color palette with appropriate shadows and make the calculator's buttons appear touchable; the the overall effect is - a simplified realism. 📱
 
